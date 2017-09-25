@@ -1,0 +1,112 @@
+@media (min-width: 992px) {
+	.r-padding{
+		padding-right: 20px !important;
+	}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+	.right hr{
+		margin: 36.5px 0;
+	}
+}
+@media (max-width: 768px) {
+	.container-fluid>.row>p{
+		top: 65%!important;
+	}
+}
+
+body,
+html{
+	height: 100%;
+}
+.container-fluid{
+	height: 100%;
+	background: #66CEFF;
+}
+.container-fluid>.row{
+	height: 100%;
+	position: relative;
+}
+.container-fluid>.row>img{
+	margin: -125px 0 0 -250px;
+	width: 500px;
+	height: 250px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+.container-fluid>.row>p{
+	margin-left: -100px;
+	width: 200px;
+	height: 30px;
+	font-size: 16px;
+	line-height: 30px;
+	color: #fff;
+	font-weight: bold;
+	text-indent: 1em;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 60%;
+}
+
+a{
+	color: #000000;
+	text-decoration: none;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+a:link{
+	color: #000000;
+	text-decoration: none;
+}
+a:hover{
+	color: #ff4400;
+	text-decoration: none;
+}
+img{
+	-webkit-transition: 0.7s;
+	transition: 0.7s;
+}
+.left a:hover img{
+	opacity: 0.6;
+}
+.right a:hover img{
+	transform: scale(1.3);
+}
+
+.clearPadding{
+	padding: 0;
+}
+
+.left img{
+	width: 200px;
+	height: 200px;
+}
+.left h4>span{
+	display: inline-block;
+}
+.indent{
+	font-weight: bold;
+	font-size: 15px;
+	text-indent: 2em;
+}
+.flex{
+	display: -webkit-box;
+	display: flex;
+	justify-content: center;
+	-webkit-box-pack: center;
+	align-items: center;
+	-webkit-box-align: center;
+}
+
+.right img{
+	margin: 5px 0;
+	border-radius: 50%;
+}
+
+.flex-cont h4 span{
+	transition: 1s;
+}
+.flex-cont h4 span:hover{
+	transform: rotateX(360deg);
+}
